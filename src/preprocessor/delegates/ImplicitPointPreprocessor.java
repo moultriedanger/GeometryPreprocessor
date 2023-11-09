@@ -23,6 +23,15 @@ public class ImplicitPointPreprocessor
 		Set<Point> implicitPoints = new LinkedHashSet<Point>();
 
         // TODO
+		//Loop through the segments, see if they intersect each other
+		List<Segment> intersectionSeg = givenSegments;
+		for (Segment s : givenSegments) {
+			intersectionSeg.remove(s);
+			for (Segment s2 : intersectionSeg) {
+				//See if they intersect
+				if (intersect method call here) implicitPoints.add(intersection method call);
+			}
+		}
 
 		return implicitPoints;
 	}
