@@ -16,7 +16,7 @@ public class ImplicitPointPreprocessor
 	 * points and name them.
 	 * 
 	 * Algorithm:
-	 *    TODO
+	 *    loop through each, see if intersect
 	 */
 	public static Set<Point> compute(PointDatabase givenPoints, List<Segment> givenSegments)
 	{
